@@ -161,5 +161,3 @@ final class Gravity_Forms_Checkbox_Group {
 	}
 
 }
-
-?>

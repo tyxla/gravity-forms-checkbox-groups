@@ -23,5 +23,3 @@ include_once(GFCB_PLUGIN_INCLUDES_DIR . 'class.Gravity-Forms-Checkbox-Group.php'
 
 // initializing the plugin
 $gfcb = Gravity_Forms_Checkbox_Group::instance();
-
-?>
