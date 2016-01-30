@@ -1,0 +1,16 @@
+/* administration styles */
+#gform_fields li #field_settings li {padding-right: 2px !important;}
+#gform_fields li #field_settings li.is_checkbox_group {}
+#gform_fields li #field_settings li.is_checkbox_group .gfield_choice_radio { cursor: default;
+	-moz-opacity: 0.01;
+	opacity: 0.01;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=1);
+}
+#gform_fields li #field_settings li.is_checkbox_group input.field-choice-text { width: 312px !important; }
+#gform_fields li #field_settings li.is_checkbox_group input.field-choice-value,
+#gform_fields li #field_settings li.is_checkbox_group input.field-choice-price { display: none !important; }
+a.gf_insert_field_choice, 
+a.gf_delete_field_choice {margin-left: 2px !important;}
+a.gf_insert_field_group { color: rgb(155, 155, 155); text-decoration: none; margin-left: 2px; font-size: 14px; position: relative; top: -1px; } 
+a.gf_insert_field_group:hover { color: rgb(68, 68, 68); }
+.add_field_group {cursor:pointer; margin:0 3px; position: relative; top: 3px; left: -1px;}
