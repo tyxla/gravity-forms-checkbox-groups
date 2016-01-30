@@ -39,3 +39,19 @@ After downloading Gravity Forms: Checkbox Groups, there are two ways you can upl
 * Login to your WordPress Dashboard
 * Go to the Plugins page
 * Activate the plugin
+
+---
+
+## How to Use
+
+The plugin adds an "Add a Group" button between the "Add an Option" and "Remove an Option" buttons next to each option in the "Checkboxes" field.
+
+Clicking this button next to an option will create a new group just below after that particular option. You should then input the label of this group. 
+
+A group can't be selected, so there is no checkbox button for making it a default value. Also, if the first option in the list of options is a group, the selected option in the frontend will be the first option that isn't in any group. 
+
+You can reorder the groups just like you can reorder your options - by using the drag &amp; drop interface.
+
+You can create as many groups as you wish, and you can insert as many options as you want below those groups.
+
+In case you disable the "Gravity Forms: Checkbox Groups" plugin, the groups will be displayed as options. Once you reenable it, they will again be displayed as groups just like before.
