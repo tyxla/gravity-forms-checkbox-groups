@@ -9,3 +9,12 @@ Usually, if you have a long list of options in your Checkboxes field, groups of 
 
 This plugin allows you to group the options in checkboxes fields by implementing &lt;groups&gt; within the native field interface.
 
+---
+
+## Requirements
+
+* WordPress
+* Gravity Forms
+
+Although Gravity Forms: Checkbox Groups supports older versions of WordPress and Gravity forms, it is always recommended that you keep your WordPress core and all of your plugins up to date. This will assure that you are protected from vulnerabilities, while having the latest complete list of features and as less issues and bugs as possible.
+
