@@ -55,3 +55,9 @@ You can reorder the groups just like you can reorder your options - by using the
 You can create as many groups as you wish, and you can insert as many options as you want below those groups.
 
 In case you disable the "Gravity Forms: Checkbox Groups" plugin, the groups will be displayed as options. Once you reenable it, they will again be displayed as groups just like before.
+
+---
+
+## Report a Bug / Suggest a Feature
+
+If you wish to report a bug or suggest a new feature, feel free to submit a new Issue in the GitHub repository of the plugin: https://github.com/tyxla/gravity-forms-checkbox-groups/issues
