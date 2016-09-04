@@ -6,7 +6,7 @@
  * Version: 1.0
  * Author: Marin Atanasov
  * Author URI: http://marinatanasov.com/
- * Tested up to: 4.4.1
+ * Tested up to: 4.5
  * License: GPL2
  */
 
