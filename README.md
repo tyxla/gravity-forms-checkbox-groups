@@ -61,3 +61,9 @@ In case you disable the "Gravity Forms: Checkbox Groups" plugin, the groups will
 ## Report a Bug / Suggest a Feature
 
 If you wish to report a bug or suggest a new feature, feel free to submit a new Issue in the GitHub repository of the plugin: https://github.com/tyxla/gravity-forms-checkbox-groups/issues
+
+---
+
+## License
+
+GPL2+
