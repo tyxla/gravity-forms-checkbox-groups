@@ -141,9 +141,14 @@ final class Gravity_Forms_Checkbox_Group {
 			if ($has_groups) {
 				foreach ($field['choices'] as $key => $choice) {
 					if (!empty($choice['isCheckboxGroup'])) {
+						if (isset($field['inputs'][$key]) && isset($field['inputs'][$key]['id'])) {
+							$admin_id = str_replace('.', '_', $field['inputs'][$key]['id']);
+						} else {
+							$admin_id = $field['id'] . "_" . ($key + 1);
+						}
 						
 						// processing in admin
-						$search = "~(<li class='gchoice_" . $form_id . "_" . $field['id'] . "_" . ($key + 1) . "'>).*?(</li>)~s";
+						$search = "~(<li class='gchoice_" . $form_id . "_" . $admin_id . "'>).*?(</li>)~s";
 						$replace = "$1<em class='checkbox-group'>" . esc_attr($choice['text']) . "</em>$2";
 						$field_content = preg_replace($search, $replace, $field_content);
 
